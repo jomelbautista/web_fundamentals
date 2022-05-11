@@ -1,0 +1,60 @@
+/* CSS Reset*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2, 
+.card-body h3, 
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-medium {
+    border-radius: 50%;
+    background-color: #cccccc;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-small {
+    height: 20px;
+    margin-right: 10px;
+}
+
+a {
+    color: #085394;
+}

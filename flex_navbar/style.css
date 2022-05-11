@@ -1,0 +1,43 @@
+@font-face {
+    font-family: roboto;
+    src: url(roboto/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: roboto;
+}
+
+li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(87, 87, 87);
+    padding: 0px 25px;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    color: white;
+    background-color: #17a2b8;
+    border: solid black 3px;
+    padding: 6px;
+    box-shadow: 5px 5px 5px black;
+}

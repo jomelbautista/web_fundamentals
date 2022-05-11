@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    margin: 0 auto;
+    width: 850px;
+}
+
+#header {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+#btn-search {
+    width: 300px;
+    padding: 0px 10px;
+    text-align: left;
+    color: gray;
+    font-weight: 200;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#btn-login {
+    width: 85px;
+    padding: 0px;
+    color: white;
+    border: 2px solid black;
+    background-color: blue;
+}
+
+
+
+
+
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.definitions {
+    width: 600px;
+}
+
+.definition-card {
+    display: flex;
+    padding: 15px 40px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.definition-data {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.definition-text {
+    width: 300px;
+    text-justify: left;
+}
+
+#italic {
+    font-style: italic;
+}
+
+p {
+    font-size: 20px;
+}
+
+.likes {
+    width: 60px;
+    padding: 5px;
+    color: black;
+    border: 2px solid black;
+    background-color: gold;
+    margin-top: 15px;
+}
+
+
+
+
+.add-definitions {
+    width: 200px;
+    border: 2px solid black;
+    height: 100px;
+    padding: 10px;
+}
+
+#add-definitions-text {
+    font-size: 26px;
+}
+
+#btn-add-definition {
+    width: 200px;
+    padding: 5px;
+    color: black;
+    border: 2px solid black;
+    background-color: lightgreen;
+    margin-top: 10px;
+}

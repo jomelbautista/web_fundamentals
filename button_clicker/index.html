@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="header">
+            <h1>Dojonary</h1>
+            <button id="btn-search">Search</button>
+            <button id="btn-login" onclick="logout(this)">Login</button>
+        </div>
+
+        <div class="container-body">
+            <div class="definitions">
+                <div class="definition-card">
+                    <div class="definition-data">
+                        <h1>ninja</h1>
+                        <h2 id="italic">noun</h2>
+                        <h2>Plural: <span id="italic">ninjas</span></h2>
+                        <button class="likes" onclick="alert('Ninja was liked')"><span>13</span> likes</button>
+                    </div>
+                    <div class="definition-text">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="definition-card">
+                    <div class="definition-data">
+                        <h1>ninja</h1>
+                        <h2 id="italic">noun</h2>
+                        <h2>Plural: <span id="italic">ninjas</span></h2>
+                        <button class="likes" onclick="alert('Ninja was liked')"><span>37</span> likes</button>
+                    </div>
+                    <div class="definition-text">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-link focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="add-definitions">
+                <p id="add-definitions-text">Dojonary is defined by YOU</p>
+                <button id="btn-add-definition" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
