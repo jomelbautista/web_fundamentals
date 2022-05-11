@@ -1,0 +1,38 @@
+.container {
+    background-color: #ebfafa;
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    padding: 25px;
+}
+
+.sub-content {
+    display: flex;
+    height: 200px;
+}
+
+#title {
+    text-align: center;
+    font-family: monospace;
+}
+
+#credits {
+    text-align: center;
+    font-family: monospace;
+}
+
+#blue-background {
+    background-color: #5bc7de
+}
+
+#purple-background {
+    background-color: #caa2aa;
+}
+
+#white-background {
+    background-color: white;
+}

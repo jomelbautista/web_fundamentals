@@ -1,0 +1,101 @@
+<!--Jomel Bautista | Web Fun | Yellow Belt Exam Attempt #1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulents</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-nav">
+        <div class="top-nav-title">
+            <img src="images/assets/leaf.png" id="leaf" alt="leaf">
+            <h1>EasyBay</h1>
+            <button class="btn-search">Search for anything<img src="images/assets/search-dark.png" class="icon" alt="Search"></button>
+            <button class="btn-sign-in">Sign In</button>
+            <!--Clicking on the cart icon will alert that your cart is empty-->
+            <button class="btn-cart" onclick="alert('Your Cart is empty!')"><img src="images/assets/cart-dark.png" id="cart" alt="Cart"></button>
+        </div>
+        <ul class="top-nav-links">
+            <li><a href="#">Aeonimum</a></li>
+            <li><a href="#">Andormischus</a></li>
+            <li><a href="#">Agave</a></li>
+            <li><a href="#">Aloe</a></li>
+            <li><a href="#">Anacampseros</a></li>
+            <li><a href="#">Aristaloe</a></li>
+            <li><a href="#">More...</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <div class="title-row">
+            <h1>Your Source for Serious Succulent Specialties</h1>
+        </div>
+
+        <!--Middle Row-->
+        <div class="body-row">
+            <div class="col-1-left">
+                <div class="card-text-l">Discover succulent varieties one pot or rack at a time!</div>
+                <div class="card-text-nav">
+                    Discover <img src="images/assets/arrow-light.png" class="icon" alt="arrow-light">
+                </div>
+            </div>
+            <div class="col-1-middle">    
+                <!--Hoovering over the image will change its source-->
+                <img src="images/assets/succulents-1.jpg" onmouseout="this.src='images/assets/succulents-1.jpg'" class="img-l" onmouseover="this.src='images/assets/succulents-2.jpg'" alt="Succulent">
+            </div>
+            <div class="col-1-right">
+                <img src="images/assets/aloe-m.jpg" class="img-m" alt="Succulent">
+                <div class="card-text-nav">
+                    Soothing aloe <img src="images/assets/arrow-light.png" class="icon" alt="arrow-light">
+                </div>
+            </div>
+        </div>
+
+        <!--Bottom Row Gallery-->
+        <div class="gallery-row">
+            <div class="col-6">
+                <img src="images/assets/aeonium-s.jpg" class="img-s" alt="Aeonium">
+                <p class="caption-s">Aeonium</p>
+            </div>
+            <div class="col-6">
+                <img src="images/assets/aloe-s.jpg" class="img-s" alt="Aloe">
+                <p class="caption-s">Aloe</p>
+            </div>
+            <div class="col-6">
+                <img src="images/assets/cactus-s.jpg" class="img-s" alt="Cactus">
+                <p class="caption-s">Cactus</p>
+            </div>
+            <div class="col-6">
+                <img src="images/assets/echeveria-s.jpg" class="img-s" alt="Echeveria">
+                <p class="caption-s">Echeveria</p>
+            </div>
+            <div class="col-6">
+                <img src="images/assets/sedum-s.jpg" class="img-s" alt="Sedum">
+                <p class="caption-s">Sedum</p>
+            </div>
+            <div class="col-6">
+                <img src="images/assets/sempervivum-s.jpg" class="img-s" alt="Sempervivum">
+                <p class="caption-s">Sempervivum</p>
+            </div>
+        </div>
+
+        <!--Cookies Row-->
+        <div id="cookies-row">
+            <img src="images/assets/alert-dark.png" id="alert" alt="Alert">
+            <div class="cookies-text">
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree 
+                to the terms outlined in our <a href="#">cookie policy</a>.</p>
+            </div>
+            <!--Clicking 'I Accept' will make the alert box disappear-->
+            <button id="btn-accept">I Accept</button> 
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
