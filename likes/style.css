@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.user-card {
+    margin-bottom: 50px;
+    border: 2px solid black;
+    padding: 20px 20px;
+}
+
+.user-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.user-text {
+    padding-right: 20px;
+}
+
+.btn-like {
+    width: 60px;
+    height: 20px;
+    padding: 0px;
+    color: black;
+    border: 2px solid black;
+    background-color: gold;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.flex-container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-col {
+    text-align: center;
+    flex: 1;
+    height: 200px;
+    border: 2px solid black;
+    margin-right: 80px;
+    padding-bottom: 20px;
+}
+
+#right-col {
+    flex: 2;
+}
+
+#user-avatar {
+    height: 100px;
+    margin: 20px;
+}
+
+#user-name {
+    margin-bottom: 20px;
+}

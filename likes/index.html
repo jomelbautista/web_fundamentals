@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class= "container">
+        <div id="header">
+            <h1>Network</h1>
+        </div>
+        <div class="title">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="flex-container">
+            <div id="left-col">
+                <img src="images/user-circle.png" id="user-avatar">
+                <p><a href="#">Add an Avatar</a></p>
+                <h2>James Doe</h2>
+            </div>
+            <div id="right-col">
+                <div class="user-card">
+                    <div class="user-data">
+                        <h2>Some User</h2>
+                        <span id="user-1">9 like(s)</span>
+                        <button class="btn-like" onclick="addlike(0)">Like</button>
+                    </div>
+                    <div class="user-text">
+                        <p>This is some filler text, it can say anything we like</p>
+                    </div>
+                </div>
+
+                <div class="user-card">
+                    <div class="user-data">
+                        <h2>Some User</h2>
+                        <span id="user-2">12 like(s)</span>
+                        <button class="btn-like" onclick="addlike(1)">Like</button>
+                    </div>
+                    <div class="user-text">
+                        <p>This is some filler text, it can say anything we like</p>
+                    </div>
+                </div>
+
+                <div class="user-card">
+                    <div class="user-data">
+                        <h2>Some User</h2>
+                        <span id="user-3">9 like(s)</span>
+                        <button class="btn-like" onclick="addlike(2)">Like</button>
+                    </div>
+                    <div class="user-text">
+                        <p>This is some filler text, it can say anything we like</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
